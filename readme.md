@@ -21,6 +21,16 @@ SongChain is a project developed for my data structures course at university. It
 -   **js/sampleSongs.js**: Contains a list of sample songs.
 -   **js/main.js**: Contains the main JavaScript code to handle user interactions and DOM manipulation.
 
+## Algorithms
+
+### Sorting
+
+The sorting algorithm used in this project is a bubble-sort-like algorithm. It iterates through the list, comparing adjacent nodes and swapping them if they are in the wrong order based on the selected key (name, artist, genre). This process is repeated until the list is sorted.
+
+### Shuffling
+
+The shuffling algorithm used in this project is the Fisher-Yates algorithm. It iterates through the list from the last node to the first node, swapping each node with a randomly selected node that comes before it (including itself). This ensures that the list is shuffled uniformly.
+
 ## Getting Started
 
 To get started with the project, follow these steps:
