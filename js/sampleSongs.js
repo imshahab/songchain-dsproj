@@ -15,11 +15,6 @@ export const sampleSongs = [
 		genre: 'Hip Hop',
 	},
 	{
-		name: "Don't Start Now",
-		artist: 'Dua Lipa',
-		genre: 'Pop',
-	},
-	{
 		name: 'Circles',
 		artist: 'Post Malone',
 		genre: 'Pop',
