@@ -77,6 +77,7 @@ function renderLibrary() {
 			(song) => `
 <div class="bg-gray-800 text-white p-4 rounded-lg shadow-md flex items-center justify-between">
   <span>
+    <span class="text-sm text-gray-500 pr-2">#${songs.indexOf(song)}</span>
     <strong class="text-lg font-semibold">${song.name}</strong> by 
     <span class="text-gray-400">${song.artist}</span> 
     <span class="text-sm text-gray-500">(${song.genre})</span>
